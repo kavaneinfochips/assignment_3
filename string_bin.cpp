@@ -46,9 +46,8 @@ int LCSubStr(string X, string Y, int m, int n)
 	
 
 	int LCSuff[m + 1][n + 1];
-	int result = 0; // To store length of the
-					// longest common substring
-
+	int result = 0;
+		
 	for (int i = 0; i <= m; i++)
 	{
 		for (int j = 0; j <= n; j++)
