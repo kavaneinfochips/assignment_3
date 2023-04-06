@@ -72,7 +72,7 @@ int main()
 {
  char string[20];
  int n,k,i,l,m;
- cout << "\nEnter any string binary:: ";
+ cout << "\nEnter any string binary GIT TEST:: ";
  cin >> string;
  int s=strlen(string);
  n = strlen(string);
@@ -87,7 +87,7 @@ int main()
  for(i=0;i<j;i++)
  {
      for(k=i+1;k<j;k++){
- cout << "\n length of the LCS is " <<LCSubStr(arr[i], arr[k], s, s);
+ cout << "\n length of the LCS is GIT TEST \n" <<LCSubStr(arr[i], arr[k], s, s);
 
      }
  }
