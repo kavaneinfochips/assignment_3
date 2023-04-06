@@ -55,7 +55,7 @@ int main()
         } 
     else{
         s1->grade=5;
-        cout<<"Score bad grade "<<s1->grade<<"\n DO more practice"<<s1->name<<"\n";
+        cout<<"Score bad grade GIT "<<s1->grade<<"\n DO more practice of GIT"<<s1->name<<"\n";
     }    
 
 
