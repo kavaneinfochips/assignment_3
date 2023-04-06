@@ -46,9 +46,8 @@ int LCSubStr(string X, string Y, int m, int n)
 	
 
 	int LCSuff[m + 1][n + 1];
-	int result = 0; // To store length of the
-					// longest common substring
-
+	int result = 0;
+		
 	for (int i = 0; i <= m; i++)
 	{
 		for (int j = 0; j <= n; j++)
@@ -73,7 +72,7 @@ int main()
 {
  char string[20];
  int n,k,i,l,m;
- cout << "\nEnter any string binary:: ";
+ cout << "\nEnter any string binary GIT TEST:: ";
  cin >> string;
  int s=strlen(string);
  n = strlen(string);
@@ -88,7 +87,7 @@ int main()
  for(i=0;i<j;i++)
  {
      for(k=i+1;k<j;k++){
- cout << "\n length of the LCS is " <<LCSubStr(arr[i], arr[k], s, s);
+ cout << "\n length of the LCS is GIT TEST \n" <<LCSubStr(arr[i], arr[k], s, s);
 
      }
  }
